@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    
+    
+}
+
+body a{
+    text-decoration: none;
+}
+
+header,main{
+    width: 80%; 
+    height: 100%;
+    background-color: #0F9977;
+    margin:  auto;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10% 0 10%;
+}
+
+
+
+.datosPersonales h3 {
+    font-size: 2.5rem;
+}
+
+.fotoPerfil{
+    
+    border-radius: 30%;
+}
+
+main{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.experiencia , .Estudios {
+    margin: 0 20%;
+}
+
+.experiencia , .Estudios{
+    font-size: 2rem;
+}
+
+

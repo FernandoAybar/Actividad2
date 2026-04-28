@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    /*  box-sizing: border-box; */
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header,
+footer {
+    width: 100%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+header {
+    height: 4rem;
+    position: fixed;
+    top: 0;
+    
+}
+
+header  a{
+    text-decoration: none;
+}
+main {
+    width: 80%;
+    min-height: 80vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 4rem;
+    position: fixed;
+    bottom: 0;
+}
+
+
+.formulario {
+    background-color: #0F9977;
+    width: 40rem;
+    height: 40rem;
+    /*border-radius: 20%;*/
+
+}
+
+
+
+.formulario form {
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_form .enviar_f{
+    background-color: aquamarine;
+    border-radius: 10%;
+    width: 8rem;
+}
+.button_form .cancelar_f{
+    background-color: rgb(235, 120, 200);
+    border-radius: 10%;
+    width: 8rem;
+}
+
+.nombre_usuario , .email_usuario,
+.telefono_usuario,.mensaje_usuario {
+    
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1.5rem;
+
+}
+.formulario textarea{
+    max-height: 18rem;
+    overflow: auto;
+    padding: 0.5rem;
+    
+}
+
+.telefono_usuario{
+    gap: 3rem;
+}

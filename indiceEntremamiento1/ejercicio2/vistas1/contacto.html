@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es>
+<head>
+    <meta charset=" UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contacto</title>
+<link rel="stylesheet" href="../estilos de contactos/stylessContacto.css">
+</head>
+
+<body>
+    <header>
+        <NAv>
+            <H1><a href="../ejercicio2.html">HOME</a> | <a href="./contacto.html">CONTACTO</a></H1>
+        </NAv>
+    </header>
+    <main>
+        <div class="formulario">
+            <form action="#" method="get">
+                <div class="nombre_usuario">
+                    <label for="usuario">Nombre:</label>
+                    <input type="text" name="usuario" id="usuario" required>
+                </div>
+                <div class="email_usuario">
+                <label for="email">E-mail : </label>
+                <input type="email" name="email" id="email" required>
+                </div>
+                <div class="telefono_usuario">
+                    <label for="telefono">Tel:</label>
+                    <input type="number" name="telefono" id="telefono" required>  
+                </div>
+                <div class="mensaje_usuario">
+                    <label for="feedback"> Mensaje:</label>
+                    <textarea name="feedback" id="feedback" rows="20" cols="60" placeholder="Coloque el mensaje que quisiera" maxlength="500"></textarea>
+                </div>
+                <div class="button_form">
+                <button class="enviar_f" type="submit"> Enviar</button>
+                <button class="cancelar_f" type="reset"> Cancelar </button>
+                </div>
+            </form>
+
+        </div>
+    </main>
+    <footer>
+        <H2>Todos los derechos reservados</H2>
+    </footer>
+</body>
+
+</html>

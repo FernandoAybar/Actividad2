@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+
+}
+
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: grey;
+    /* prueba */
+    /*  tendriamos que agregar un padding para que se mantenga fuera de los margenes*/
+    padding-top: 2rem;
+    /* padding-bottom: 3rem;*/
+
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+header {
+    height: 2rem;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+main {
+    width: 80%;
+    min-height: 100vh;
+    background-color: rgba(72, 221, 72, 0.582);
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+
+
+}
+
+.lista_ul {
+    margin-bottom: 30rem;
+}
+
+
+.lista_ul h2 {
+
+    margin-bottom: 3rem;
+}
+
+li {
+    margin-bottom: 0, 625rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 1rem;
+}
+
+.receta_1 {
+    background-color: #fff;
+    height: 15rem;
+    width: 80%;
+
+}
+
+.tablas_recetas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.sub_titulo {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 2rem;
+}
+
+.receta_1 p {
+    padding: 0.5rem 2rem;
+}

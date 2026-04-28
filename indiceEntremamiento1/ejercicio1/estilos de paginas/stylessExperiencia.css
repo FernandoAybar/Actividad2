@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    
+    width: 100%;
+    height: 100vh;
+    
+}
+
+
+header,main{
+     padding: 2rem;
+    width: 80%; 
+    background-color: #0F9977;
+    margin:  auto;
+    text-align: center;
+    /*display: flex;
+    justify-content: space-around;
+    align-items: center;*/
+    
+}
+
+
+
+.experiencia {
+display: flex;
+flex-direction: column;
+
+align-items: center;
+gap: 1rem;
+}
+
+.experiencia b {
+    color: rgb(236, 8, 8);
+}
+
+
+.mapa iframe{
+    width:100%;
+    width:70rem;
+    height:25rem;
+}
+
+.volver_ejercicio1 {
+    display: flex;
+    justify-content: flex-end;   
+}
+
+
+.volver_ejercicio1 h4 {
+    background-color: black;
+    border-radius:2rem;
+    width: 5rem;
+    
+    
+}
+
+main a{
+    text-decoration: none;
+}
+
+img{
+    border-radius: 3%;
+    margin: 2% 2%;
+}
+
+
+
+
